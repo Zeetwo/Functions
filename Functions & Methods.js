@@ -145,7 +145,7 @@ let nearr =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 
  console.log (up3arr)
 
- //Reduce Method :-
+ //Reduce Method :- (+sum)
 
  let arrsum =[2,5,8,10];
 
@@ -153,3 +153,46 @@ let nearr =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
     return res +val;
  });
  console.log (finalsum);
+
+ //Find out largest Number:-
+
+ let finalbig = arrsum.reduce( (res, val) =>{
+    return res >val ? red : val;
+ });
+ console.log (finalbig);
+
+
+ //Practice questions :-
+
+ let marks =[85,90,86,75,95,92,93,80,56,79,89,58];
+
+ 
+ let passmarks = marks.filter( (num) =>{
+    return num >80 ;
+ });
+ console.log (passmarks);
+
+//Practice questions 02:-
+
+let n = prompt ("enter your no...");
+
+let narr = [];
+
+for (let i=1; i<=n; i++ ) {
+    narr[ i-1] =i; 
+}
+ console.log (narr);
+
+//Practice questions 03:-
+
+let newsum = narr.reduce( (res, val) =>{
+    return res +val;
+ });
+ console.log (newsum);
+
+ let factorial = narr.reduce( (res, val) =>{
+    return res * val;
+ });
+ console.log (factorial);
+
+
