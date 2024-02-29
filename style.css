@@ -1,0 +1,19 @@
+.heading {
+    color: crimson;
+    text-decoration: solid;
+}
+body {
+    background-color: beige;
+    text-align: center;
+}
+button {
+    color: brown;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    background-color: aqua;
+}
